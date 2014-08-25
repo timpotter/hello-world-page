@@ -54,6 +54,40 @@ Icons for major social networks and services are baked in. Just uncomment whatev
 
 Fully responsive and ready to rock.
 
+
+Setting it up
+-------------
+
+###1. Fork this repo
+
+![alt text](http://tejpotter.com/projects/hello-world-page/1-fork-repo.png "1. Fork this Repo")
+
+###2. Select where to fork the repo
+This can be a personal or organisation account. In this instance I've forked it to an organisation account.
+
+![alt text](http://tejpotter.com/projects/hello-world-page/2-select-account.png "2. Select an account")
+
+###3. Click on settings
+You'll notice you're now in your account. Click on settings.
+
+![alt text](http://tejpotter.com/projects/hello-world-page/3-settings.png "3. Click on Settings")
+
+###4. Rename your repo and set the default branch to master
+Rename your repo to ussername.github.io, where username is your username or organization name on GitHub. Change the branch to master.
+
+![alt text](http://tejpotter.com/projects/hello-world-page/4-change-repo-set-master.png "4. Rename and change branch")
+
+###5. Your personal page is now published.
+
+![alt text](http://tejpotter.com/projects/hello-world-page/5-site-published.png "5. Site Published")
+
+###6. Customise your content and you're all done :)
+
+![alt text](http://tejpotter.com/projects/hello-world-page/6-all-done.png "6. All done")
+
+Feel free to delete the README.md once you've your personal page setup. 
+
+
 ####Credits:
 
 + Default Avatar: [UI Faces](http://uifaces.com/)
