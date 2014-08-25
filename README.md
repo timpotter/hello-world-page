@@ -85,8 +85,6 @@ Rename your repo to ussername.github.io, where username is your username or orga
 
 ![alt text](http://tejpotter.com/projects/hello-world-page/6-all-done.png "6. All done")
 
-Feel free to delete the README.md once you've your personal page setup. 
-
 
 ####Credits:
 
