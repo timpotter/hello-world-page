@@ -73,7 +73,7 @@ You'll notice you're now in your account. Click on settings.
 ![alt text](http://tejpotter.com/projects/hello-world-page/3-settings.png "3. Click on Settings")
 
 ###4. Rename your repo and set the default branch to master
-Rename your repo to ussername.github.io, where username is your username or organization name on GitHub. Change the default branch to master (unless it's not on .
+Rename your repo to ussername.github.io, where username is your username or organisation name on GitHub. Change the default branch to master.
 
 ![alt text](http://tejpotter.com/projects/hello-world-page/4-change-repo-set-master.png "4. Rename and change branch")
 
