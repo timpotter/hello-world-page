@@ -13,20 +13,15 @@ Author URI: http://littlethunder.co
   margin: 0;
 }
 
-*, 
-*:before, 
-*:after {
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
-  box-sizing: border-box;
-}
+
 
 /* Typography */
 body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #444;
+  color: #0f0f0f;
    -webkit-font-smoothing: antialiased;
+    background: url(../images/triangle.png)  top center repeat;
 }
 
 header {
@@ -39,6 +34,12 @@ header p {
   font-weight: 300;
 }
 
+section{
+padding:2em;}
+
+section h2{
+padding-bottom: 1em;}
+
 h1 {
   font-weight: 100;
   font-size: 3em; /* 48/16 */
@@ -46,43 +47,82 @@ h1 {
   line-height: 1em;
 }
 
-p {
-  line-height: 1.75em;
+section p {
+  line-height: 1.9em;
+    font-size: 1.2em;
 }
 
-.about p:nth-of-type(1) { 
-  font-size: 1.5em; /* 24/16 */
-  line-height: 1.5em;
+
+/*----nav----*/
+nav
+{position: fixed;
+top: 0px;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color:whitesmoke;
+        
 }
 
-.about p {
-  padding-bottom: 20px;
-  text-align: justify;
+nav 
+{
+padding: 0.5em 0;
+margin-bottom: 0.4em;
 }
 
-footer p {
-  text-align: center;
-  font-size: 0.625em; /* 10/16 */
+nav ul 
+{text-align: center;
 }
 
-small {
-  text-align: center;
-}
-
-strong {
-  font-weight: 400;
-}
-
+nav ul li 
+{display: inline;
+margin: 20px;}
+/*-----links------------*/
 a {
-  text-decoration: none;
-  font-weight: 400;
-  color: #333;
+color:darkgray;
+text-decoration:none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #666;
+          color:white;
+          border-bottom: 1px dotted;
+        }
+.svglinks a {
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
+
+.svglinks a:hover {
+  opacity: 0.8;
+}
+
+.svglinks li {
+  display: inline;
+  margin: 0px;
+  color: #444;
+}
+
+.svglinks li img {
+  width: 0px;
+    display: inline;
+padding-left: 1em;
+    padding-top: 1em;
+}
+
+.svglinks a:hover {
+        padding: 7px;
+        /*background:;
+        color: #fff;*/
+        border-bottom: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+        border-radius: 1em;}
 
 
 .social a {
@@ -104,10 +144,6 @@ a:hover {
 
 /* Images */
 
-.background {
-   /* Delete background class from <body> for a vanilla style */
-   background: url(../images/background.jpg) top center no-repeat;
-}
 
 img.avatar {
   margin-bottom: 30px;
@@ -124,9 +160,9 @@ img.avatar {
 /* Layout */
 
 .container {
-  width: 600px;
+  width: 800px;
   margin: 100px auto 25px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color:rgba(255, 255, 255, 0.8);
   padding: 0 60px 30px;
   border-radius: 6px;
 }
@@ -136,43 +172,3 @@ img.avatar {
   text-align: center;
 }
 
-footer {
-  margin-top: 30px;
-}
-
-
-/* Responsive Styles */
-
-@media only screen and (min-width: 1920px) {
-  .background {
-    background-size: 100%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-
-  .container {
-    width: 90%;
-    margin-top: 50px;
-    padding: 0 30px 30px; 
-  }
-
-  h1 {
-    font-size: 2.25em; /* 36/16 */
-    margin-bottom: 20px;
-  }
-
-  .social {
-    margin-top: 20px;
-  }
-
-  .about p {
-    text-align: left;
-    padding-bottom: 15px;
-  }
-  
-  .about p:nth-of-type(1) { 
-    font-size: 1.25em; /* 20/16 */
-    text-align: center;
-  }
-}
